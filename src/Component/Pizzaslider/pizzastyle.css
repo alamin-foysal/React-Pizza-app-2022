@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.peslider {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.pizsliderdetail h5 {
+    color: darkmagenta;
+    padding: 5px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    font-size: xx-large;
+}
+
+.pizsliderdetail p {
+    color: burlywood;
+    padding: 5px;
+    font-style: italic;
+    letter-spacing: 2px;
+
+}
+
+.pebtn button {
+    display: inline-block;
+    font-size: smaller;
+    color: white;
+    background: crimson;
+    border: none;
+    padding: 8px 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 30px auto;
+}
+
+.pebtn button:hover {
+    background: gold;
+    color: white;
+}
+
+.carosal .slick-arrow.slick-prev,
+.carosal .slick-arrow.slick-next {
+    background: rgb(64, 123, 182);
+    visibility: hidden;
+
+}

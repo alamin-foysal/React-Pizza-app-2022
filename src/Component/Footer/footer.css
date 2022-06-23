@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.foot {
+    width: 100%;
+    height: auto;
+}
+
+.focon h1 {
+    text-align: center;
+    color: wheat;
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    padding: 2px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.fotdetal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.fotdetal ul {
+    margin: 0;
+    padding: 0;
+}
+
+.fotdetal ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.fotdetal ul li p {
+    color: wheat;
+    margin: 0;
+    padding: 1px;
+    font-style: italic;
+    font-family: Roboto;
+    font-size: smaller;
+}
+
+.quick h1 {
+    text-align: center;
+    color: wheat;
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    padding: 2px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.cours ul {
+    margin: 0;
+    padding: 0;
+}
+
+.cours ul li {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cours ul li .q {
+    color: rgb(163, 181, 189);
+    text-decoration: none;
+    display: block;
+    padding: 7px 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-style: italic;
+    font-family: Roboto;
+    transition: all 0.5s;
+    margin-top: 0;
+}
+
+.cours ul li .q:hover {
+    text-decoration: underline;
+    color: darkturquoise;
+    background-color: floralwhite;
+    border-radius: 10px;
+    border: 1px solid rgb(10, 230, 83);
+    transform: scale(1.1);
+}
+
+.sociallink .slink h1 {
+    text-align: center;
+    color: wheat;
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    padding: 2px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.slinkicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slinkicon ul {
+    margin: 0;
+    padding: 0;
+}
+
+.slinkicon ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.slinkicon ul li a {
+    display: block;
+    padding: 3px;
+    transition: all 0.5s;
+}
+
+.slinkicon ul li a:hover {
+    transform: scale(1.4);
+}
+
+.repoject h1 {
+    text-align: center;
+    color: rgb(235, 28, 13);
+    font-size: small;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    padding: 2px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+
+}
+
+.recenpoject ul {
+    margin: 0;
+    padding: 0;
+}
+
+.recenpoject ul li {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recenpoject ul li a {
+    color: rgb(175, 204, 169);
+    text-decoration: none;
+    display: block;
+    padding: 7px 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-style: italic;
+    font-family: Roboto;
+    transition: all 0.5s;
+    margin-top: 0;
+}
+
+.recenpoject ul li a:hover {
+    text-decoration: underline;
+    color: darkturquoise;
+    background-color: floralwhite;
+    border-radius: 10px;
+    border: 1px solid rgb(10, 230, 83);
+    transform: scale(1.1);
+
+}

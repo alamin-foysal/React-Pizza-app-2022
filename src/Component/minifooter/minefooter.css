@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.minifoot {
+    width: 100%;
+    position: relative;
+    z-index: 3000;
+}
+
+.bg {
+    background: #648523;
+}
+
+.minefoo {
+    height: 30px;
+}
+
+.minefoo p {
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+    color: rgb(170, 169, 165);
+    font-family: monospace;
+    font-style: italic;
+    margin: 0;
+
+}
+
+.bfooter {
+    margin-top: auto;
+    width: 100vw;
+    height: 40px;
+    background-color: darkgoldenrod;
+}

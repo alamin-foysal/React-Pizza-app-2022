@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.herobg {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../../public/photo/heropizza4.jpg);
+    /*background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    transition: all 0.5s ease-in-out;
+    animation: hero 16s 6s infinite;
+    -webkit-animation: hero 16s 6s infinite;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+
+}
+
+.herodetal {
+    margin: 0;
+    padding: 0;
+    margin-top: 15vh;
+
+}
+
+.herodetal h6 {
+    color: rgb(79, 223, 12);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+
+.herodetal h5 {
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+}
+
+
+.herodetal h2 {
+    color: rgb(92, 233, 10);
+    font-style: italic;
+    padding: 5px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.herodetal h3 {
+    color: rgb(245, 11, 120);
+    font-style: italic;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.herodetal p {
+    color: rgb(14, 190, 196);
+    font-style: italic;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+.cbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.socialicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    background: rgb(124, 67, 95);
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+    opacity: 0.8;
+    margin-top: 10vh;
+}
+
+.socialicon li {
+    list-style: none;
+}
+
+.socialicon li a {
+    display: block;
+    padding: 4px;
+    font-size: 15px;
+    line-height: 5px;
+    color: rgb(172, 240, 14);
+    transition: all 0.5s;
+
+}
+
+.socialicon li a:hover {
+    transform: scale(1.3);
+    color: red;
+}
+
+@keyframes hero {
+    0% {
+        background-image: url(../../../public/photo/heropizza4.jpg);
+    }
+
+    25% {
+        background-image: url(../../../public/photo/heropizza3.jpg);
+    }
+
+    50% {
+        background-image: url(../../../public/photo/heropizza2.jpg);
+    }
+
+    75% {
+        background-image: url(../../../public/photo/heropizza5.jpg);
+    }
+
+    100% {
+        background-image: url(../../../public/photo/heropizza1.jpg);
+    }
+}
+
+@-webkit-keyframes hero {
+    0% {
+        background-image: url(../../../public/photo/heropizza4.jpg);
+    }
+
+    25% {
+        background-image: url(../../../public/photo/heropizza3.jpg);
+    }
+
+    50% {
+        background-image: url(../../../public/photo/heropizza2.jpg);
+    }
+
+    75% {
+        background-image: url(../../../public/photo/heropizza5.jpg);
+    }
+
+    100% {
+        background-image: url(../../../public/photo/heropizza1.jpg);
+    }
+
+
+}

@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.service h1 {
+  color: brown;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+
+.service img {
+  width: 100px;
+  height: auto;
+  margin: 2px auto;
+  padding: 5px;
+}
+
+.servicedetail h3 {
+  color: gold;
+  font-size: 20px;
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+  padding-top: 5px;
+
+}
+
+.servicedetail h4 {
+  color: rgb(16, 230, 87);
+  font-size: 10px;
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+
+}
+
+.servicedetail p {
+  color: rgb(238, 131, 9);
+  font-size: 17px;
+  margin: 0;
+  font-style: italic;
+  text-align: justify;
+  padding: 15px;
+
+}
+
+.serviceimg {
+  width: 100%;
+  height: auto;
+  margin: 5px auto;
+}
+
+.serviceimg img {
+  width: 100%;
+  height: auto;
+  margin: 5px auto;
+}
+
+.serviceheading {
+  margin: 0;
+  padding: 0;
+}
+
+.serviceheading h4 {
+  color: gold;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-style: italic;
+  padding-top: 5px;
+  cursor: pointer;
+
+}
+
+.serviceheading h5 {
+  color: rgb(38, 185, 8);
+  font-size: 13px;
+  margin-top: 0;
+  font-style: italic;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.serviceorder h6 {
+  color: rgb(241, 14, 14);
+  padding: 5px;
+  margin: 0;
+
+}
+
+.serviceorder ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: justify;
+}
+
+.serviceorder ul li {
+  color: rgb(233, 163, 12);
+  padding: 5px;
+  font-size: 15px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}

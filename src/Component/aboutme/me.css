@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pizzame {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.mephoto {
+    width: 100%;
+    height: 50%;
+}
+
+.mephoto img {
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+}
+
+.medetal {
+    overflow: hidden;
+}
+
+.medetal h1 {
+    font-size: larger;
+    font-family: cursive;
+    padding: 5px;
+    margin-top: 5px;
+    color: saddlebrown;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.medetal p {
+    font-size: small;
+    font-family: cursive;
+    padding: 2px;
+    color: rgb(139, 19, 109);
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.medetal h4 {
+    font-size: small;
+    font-family: cursive;
+    padding: 2px;
+    color: rgb(194, 72, 15);
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 2px;
+
+}

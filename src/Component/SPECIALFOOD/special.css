@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.special {
+  width: 100%;
+  /*background-image: url('../../../public/photo/specialh.jpg');*/
+  overflow: hidden;
+}
+
+.special h1 {
+  color: brown;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+
+.special img {
+  width: 100px;
+  height: auto;
+  margin: 2px auto;
+  padding: 10px;
+}
+
+special h1::after {
+  width: 10rem;
+  background: linear-gradient(to left, rgb(221, 8, 210), rgb(13, 224, 108), rgb(63, 20, 220));
+  content: " ";
+  display: block;
+  height: 4px;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+.special .spcard {
+  transition: all 0.4s linear;
+  margin-bottom: 10px;
+
+}
+
+.special .spcard img {
+  padding: 0px;
+  margin: 0;
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.special .spcard:hover {
+  background: pink;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.special .spcard-body h5 {
+  font-size: smaller;
+  color: rgb(147, 14, 209);
+  text-align: center;
+  margin: 0;
+}
+
+.special .spcard-body p {
+  font-size: smaller;
+  color: rgb(250, 11, 11);
+  text-align: center;
+  margin: 0;
+  font-weight: bolder;
+  animation: doler 0.5s infinite alternate-reverse;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -webkit-animation: doler 0.5s infinite alternate-reverse;
+  -moz-animation: doler 0.5s infinite alternate-reverse;
+  -o-animation: doler 0.5s infinite alternate-reverse;
+}
+
+.spcard-body .order {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.order button {
+  display: block;
+  font-size: smaller;
+  color: white;
+  background: crimson;
+  border: none;
+  padding: 2px;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+  animation: order 3s infinite;
+  -webkit-animation: order 3s infinite;
+  -moz-animation: order 3s infinite;
+  -o-animation: order 3s infinite;
+
+
+}
+
+.order h2 {
+  font-size: smaller;
+  color: rgb(28, 29, 26);
+  text-align: center;
+  margin: 0;
+  display: block;
+  background: rgb(109, 185, 199);
+  margin-left: 5px;
+  padding: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes doler {
+  0% {
+
+    margin-left: 6px;
+  }
+
+  100% {
+
+    margin-right: 6px;
+  }
+
+}
+
+@-webkit-keyframes doler {
+  0% {
+
+    margin-left: 6px;
+  }
+
+  100% {
+
+    margin-right: 6px;
+  }
+}
+
+@keyframes order {
+  0% {
+    transform: scale(.4);
+
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+
+
+}
+
+@-webkit-keyframes order {
+  0% {
+    transform: scale(.4);
+
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+
+}

@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.achiv h1 {
+    text-align: center;
+    color: rgb(7, 212, 7);
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: gold;
+}

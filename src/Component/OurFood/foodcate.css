@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.foodcat {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.catebtn {
+    width: 24%;
+    height: 100%;
+    background-color: rgb(133, 80, 71);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0px 6px 6px 0px black;
+    margin-left: -12px;
+}
+
+.catebtn ul {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.catebtn ul li {
+    padding: 9px 5px;
+}
+
+.carde {
+    box-shadow: 0px 4px 5px 0px grey;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.cardhover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    left: 100%;
+    top: 0;
+    transition: all 0.5s;
+    border-bottom: 4px solid salmon;
+    border-left: 4px solid rgb(177, 4, 119);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cardhover h1 {
+    margin: 50% 25%;
+}
+
+.carde:hover .cardhover {
+    left: 0;
+}
+
+.th {
+    color: darkred;
+}
+
+.tp {
+    color: rgb(154, 175, 16);
+}
+
+.cardprice {
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.cardprice .p {
+    animation: alamin 0.5s linear infinite alternate-reverse;
+    color: rgb(231, 9, 9);
+    font-size: smaller;
+    padding: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+.cardprice .t {
+    color: forestgreen;
+    font-size: smaller;
+    font-family: cursive;
+    font-style: italic;
+}
+
+@keyframes alamin {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(0.7)
+    }
+
+}
+
+;

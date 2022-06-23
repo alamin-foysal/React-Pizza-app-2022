@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contactme h1 {
+  text-align: center;
+  color: #F6A45B;
+  padding: 2px;
+  font-family: cursive;
+  font-style: italic;
+  margin-top: 2px;
+  text-decoration: underline;
+  text-decoration-color: springgreen;
+  text-decoration-style: double;
+
+}
+
+.emailform label {
+  color: hotpink;
+  font-family: cursive;
+  font-style: italic;
+  font-size: large;
+
+}

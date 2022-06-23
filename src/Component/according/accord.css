@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.faqask {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.faq {
+    padding: 5px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.faq img {
+    min-width: 150px;
+    height: auto;
+    margin: 1px auto;
+    padding: 5px;
+    width: 180px;
+    border-radius: 30%;
+}
+
+.faq h5 {
+    color: fuchsia;
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+    margin-bottom: 10px;
+    text-decoration-style: double;
+    text-decoration-color: greenyellow;
+}
+
+.gmap {
+    overflow: hidden;
+}

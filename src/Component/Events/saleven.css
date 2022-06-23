@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.event {
+    width: 100%;
+    height: auto;
+}
+
+.event h1 {
+    color: rgb(212, 11, 202);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.event h1 img {
+    width: 100px;
+    height: auto;
+    margin: 2px auto;
+    padding: 2px;
+}
+
+.firstimg {
+    width: 100%;
+    height: auto;
+    margin: 1px auto;
+    position: relative;
+}
+
+#vido {
+    width: 100%;
+    height: auto;
+    margin: 1px auto;
+    box-shadow: 4px 4px 0px 0px rgb(216, 8, 112);
+    object-fit: cover;
+    z-index: -11;
+
+}
+
+.firstimg img {
+    margin: 1px auto;
+    box-shadow: 4px 4px 0px 0px red;
+}
+
+.overlay {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background: black;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 06px auto;
+    opacity: 0.6;
+
+}
+
+.overlay h4 {
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-weight: bolder;
+    margin: 10px auto;
+
+}
+
+.overlay h3 {
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-weight: bolder;
+    margin: 10px auto;
+
+}
+
+.pizbtn button {
+    display: block;
+    font-size: smaller;
+    color: white;
+    background: rgb(219, 21, 87);
+    border: none;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin: 2px auto;
+    border-radius: 5px;
+    font-size: 10px;
+    height: auto;
+}

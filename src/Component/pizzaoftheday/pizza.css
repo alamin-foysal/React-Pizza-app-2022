@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pizzaday {
+  width: 100%;
+  height: 50vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('../../../public/photo/day.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  overflow: hidden;
+
+}
+
+.pizzabg h6 {
+  color: rgb(7, 248, 248);
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  padding: 5px;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.pizzabg h5 {
+  color: rgb(233, 156, 14);
+  text-align: center;
+  margin: 0;
+  font-size: 15px;
+  padding: 2px;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.pizzabg h3 {
+  text-align: center;
+  color: red;
+  font-size: medium;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  animation: doler 0.5s infinite alternate-reverse;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -webkit-animation: doler 0.5s infinite alternate-reverse;
+  -moz-animation: doler 0.5s infinite alternate-reverse;
+  -o-animation: doler 0.5s infinite alternate-reverse;
+}
+
+.pizzabg p {
+  color: white;
+  padding: 5px;
+  font-weight: 500;
+  font-size: smaller;
+  text-align: center;
+}
+
+.pizzabtn button {
+  display: block;
+  font-size: smaller;
+  color: white;
+  background: crimson;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+  margin: 20px auto;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.pizzabtn button:hover {
+  background: gold;
+  color: white;
+}
+
+@keyframes doler {
+  0% {
+
+    margin-left: 6px;
+  }
+
+  100% {
+
+    margin-right: 6px;
+  }
+
+}
+
+@-webkit-keyframes doler {
+  0% {
+
+    margin-left: 6px;
+  }
+
+  100% {
+
+    margin-right: 6px;
+  }
+}
